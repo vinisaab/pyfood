@@ -8,5 +8,3 @@ def init_app(app):
     @app.route("/contato")
     def contato():
         return "<form>NOME: <input type='text'></input><form>"
-
-
